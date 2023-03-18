@@ -1,0 +1,56 @@
+:root {
+  --mobile-breakpoint: 375px;
+  --desktop-breakpoint: 1440px;
+
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --soft-violet-dark: hsl(277, 91%, 35%);
+
+  --white: hsl(0, 0%, 100%);
+  --transparent-white-75: hsla(0, 0%, 100%, 0.75);
+  --transparent-white-60: hsla(0, 0%, 100%, 0.6);
+
+  --default-browser-font-size-px: 16;
+  --default-font-size-px: 15;
+
+  --font-family-Inter: 'Inter', sans-serif;
+  --font-family-Lex: 'Lexend Deca', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--very-dark-blue);
+  color: var(--transparent-white-75);
+  font: calc(16rem / var(--default-browser-font-size-px)) var(--font-family-Inter);
+}
+
+h1 {
+  color: var(--white);
+  font-size: calc( 34rem / var(--default-browser-font-size-px) );
+}
+
+em {
+  color: var(--soft-violet);
+  font-style: normal;
+}
+
+p {
+  font-size: calc(15rem / var(--default-browser-font-size-px));
+  line-height: 1.75;
+}
+
+
+@media screen and (max-width: 1439.98px) {
+  h1 {
+    font-size: calc(28rem / var(--default-browser-font-size-px));
+  }
+}
+
+@media screen and (max-width: 374.98px) {
+
+
+}
