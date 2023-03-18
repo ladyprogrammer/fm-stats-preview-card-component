@@ -33,7 +33,7 @@
 .metrics {
   font-family: var(--font-family-Lex);
   list-style-type: none;
-  margin: calc(30eem / var(--default-browser-font-size-px)) 0 0;
+  margin: calc(30em / var(--default-browser-font-size-px)) 0 0;
   padding: 0;
   display: inline-flex;
   gap: calc(50em / var(--default-browser-font-size-px));
