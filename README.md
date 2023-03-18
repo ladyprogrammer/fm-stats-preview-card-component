@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ladyprogrammer/fm-stats-preview-card-component](https://github.com/ladyprogrammer/fm-stats-preview-card-component)
+- Live Site URL: [https://fm-stats-preview-card-component-lime.vercel.app/](https://fm-stats-preview-card-component-lime.vercel.app/)
 
 ## My process
 
